@@ -11,9 +11,9 @@ using namespace std;
 
 int main() {
 	// VARIABLE INITIALIZATION
-	double loan;					// LOAN AMOUNT
+	double loan;				// LOAN AMOUNT
 	double interestRate;			// YEARLY INTEREST RATE %
-	double monthlyPaid;				// MONTHLY PAYMENT AMOUNT
+	double monthlyPaid;			// MONTHLY PAYMENT AMOUNT
 	double interestRateC;			// INTEREST RATE CONVERTED TO MONTHLY RATE DECIMAL FOR CALCULATION
 	int currentMonth = 0;			// MONTH COUNTER
 	double interestTotal = 0;		// TOTAL AMOUNT OF INTEREST PAID AFTER PAYING OFF LOAN
