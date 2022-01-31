@@ -1,0 +1,22 @@
+---
+title: "Homework 1"
+author: "Brantley Robertson"
+date: "1/31/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Part 1 Questions
+
+@. $P(E') = 1 - P(E)$ because the complement of $E$ is just the rest of the sample space. We could write this equation like this $P(E') + P(E) = 1$.
+
+@. The probability of a null/empty set is 0 because there is nothing in it. Probability is defined by the equation $P(E) = n(E)/n(S)$ where $E$ is an event, $n$ is a number of outcomes, and $S$ is the sample space. An empty set has 0 outcomes, which means the equation for it would look like this $P(E) = 0/n(S)$. This just equals 0.
+
+@. 
+```{r}
+
+```
+

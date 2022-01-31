@@ -1,0 +1,41 @@
+---
+title: "Homework 1 - Probability Concepts"
+author: "Jordan Eckert"
+date: "12/29/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Part 1 - Knowledge-Based Questions
+
+@. Show that $P(E') = 1 - P(E)$.
+
+@. Show that the probability of the empty/null set is equal to 0. 
+
+@. If $E_1$ and $E_2$ are mutually exclusive events such that $E_1 \cup E_2 = \mathcal{S}$ and $P(E_1) \leq P(E_2)$, then what can be said about the size of the set of $E_1$ compared to $E_2$? 
+
+
+# Part 2 - Applied Questions
+
+@. A lot contains 15 castings from a local supplier and 25 castings from a supplier in the next state. Two castings are selected randomly, without replacement, let event A be the event that the first casting is selected from the local supplier, and let B be the event that the second casting is chosen from the local supplier. Let A and B be independent events. Determine, if possible:$P(A)$, $P(B|A)$, $P(A \cup B)$.
+
+@. If $P(A|B) = .4$, $P(B) = .8$, and $P(A) = .5$ are the events A and B independent? Find $P(B|A)$.
+
+@. The probability that a lab specimen contains high levels of contamination is .10. Five samples are checked. Assume that each sample is independent of the others. What is the probability that none contained high levels of contamination? What is the probability that exactly one sample contained high levels of contamination? What is the probability that at least one sample contained high levels of contamination?
+
+@. Samples of a cast aluminum part are classified by their surface finish and length measurements. The results of 100 parts are listed below. Let A denote the event a sample has no scratches and B denote the event that a sample has perfect length. Are events A and B independent?
+
+```{r echo=FALSE}
+no_scratch = c(80, 2)
+minor_scratch = c(10, 8)
+
+data = rbind (no_scratch, minor_scratch)
+datum = matrix(data = data, nrow = 2, ncol = 2, byrow = T, dimnames = list(c("No Scratches", "Minor Scratches"),c("Perfect Length", "Too Short")))
+datum
+
+```
+
+
