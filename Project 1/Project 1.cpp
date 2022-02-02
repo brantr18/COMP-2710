@@ -1,10 +1,9 @@
-﻿/* FILE NAME: project1_Robertson_bar0065.cpp
+﻿/* FILE NAME: Project 1
 * AUTHOR: Brantley Robertson
-* AUBURN USER ID: bar0065
 * SOURCES: I used http://cplusplus.com/forum/beginner/233401/ to help
 * prevent strings being entered. I used cin.fail(), !cin, cin.clear(), and cin.ignore()
 * from this source. 
-* TO COMPILE THIS FILE ENTER THIS COMMAND: g++ project1_Robertson_bar0065.cpp
+* TO COMPILE THIS FILE ENTER THIS COMMAND: g++ Project 1.cpp
 */
 
 
